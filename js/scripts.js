@@ -1395,11 +1395,11 @@ $('#shopping_button').on('mouseenter',function(){
 
 			if(flx.length){
 				flx.flexslider({
-					animation : "slide",
+					animation : "fade",
 					animationSpeed : 1000,
 					prevText: "<i class='fa fa-angle-left'></i>",
 					nextText: "<i class='fa fa-angle-right'></i>",
-					slideshow:false,
+					slideshow:true,
 					start: function(){
 		   			var image = $('.flexslider [data-custom-thumb]'),
 			   			len = image.length,

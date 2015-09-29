@@ -19,8 +19,7 @@
 	18. Responsive changes
 	19. Retina ready
 -------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,700,500,300italic);
-@import url(http://fonts.googleapis.com/css?family=Raleway:300,500,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,300,600,900);
 @import "styleswitcher.css";
 
 /* -----------------------------------
@@ -91,7 +90,7 @@ html,body{
 	2. Basic classes and elements 
 
 ------------------------------------- */
-
+
 body{
 	color:#696e6e;
 	background:#004E7F;
@@ -735,7 +734,7 @@ blockquote:after{
 	border-radius:4px 4px 0 0;
 }
 .menu_wrap,#footer{
-	background:#004E7F;
+	background:#4D7CB2;
 }
 .menu_wrap.type_2:not(.sticky) .main_menu > li:first-child > a{
 	-webkit-border-top-left-radius:4px;
@@ -1394,7 +1393,7 @@ blockquote:after{
 .social_widgets{
 	position:fixed;
 	right:0;
-	top:26%;
+	top:16%;
 	z-index:189;
 }
 .social_widgets > li{
@@ -3127,7 +3126,7 @@ fieldset legend .close_fieldset{
 	padding-bottom:45px;
 }
 .footer_bottom_part{
-	background:#292f38;
+	background:#104879;
 	padding:24px 0 22px;
 	color:#696e6e;
 }
@@ -3347,7 +3346,7 @@ fieldset legend .close_fieldset{
 	opacity:1;	
 	visibility: visible;	
 }
-
+.margem-icones-topo{	margin-top: 0px;}
 /* -----------------------------------
 
 	18. Responsive changes
@@ -3789,7 +3788,7 @@ fieldset legend .close_fieldset{
 		width:750px;
 	}
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px){
 	.boxed_layout{
 		margin:0 10px;
 	}
@@ -4042,7 +4041,7 @@ fieldset legend .close_fieldset{
 		transform:translateY(-50%);
 	}
 	.responsive_table tr:nth-child(2n){
-		background:#F8FCFD;
+		background:#4D7CB2;		color: #fff;
 	}
 	.responsive_table.type_2 tr:first-child td{
 		width:100%;
