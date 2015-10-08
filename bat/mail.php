@@ -19,8 +19,8 @@
 	if(validate($mail)){
 
 		echo mail($user_email, $mail['subject'], 
-			"Name : {$mail['name']}\n" 
-			."E-mail : {$mail['email']}\n"
+			"Name : {$mail['name']}" 
+			."E-mail : {$mail['email']}"
 			."Message : {$mail['message']}" 
 		);
 
