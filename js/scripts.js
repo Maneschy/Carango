@@ -1131,7 +1131,7 @@ $('#shopping_button').on('mouseenter',function(){
 				request.then(function(data){
 					if(data == "1"){
 
-						text = "Your message has been sent successfully!";
+						text = "Sua mensagem foi enviada! Muito obrigado!";
 
 						cf.find('input:not([type="submit"]),textarea').val('');
 
@@ -1160,7 +1160,7 @@ $('#shopping_button').on('mouseenter',function(){
 							});
 					}
 				},function(){
-					$('.message_container').html('<div class="alert_box r_corners error"><i class="fa fa-exclamation-triangle"></i><p>Connection to server failed!</p></div>')
+					$('.message_container').html('<div class="alert_box r_corners error"><i class="fa fa-exclamation-triangle"></i><p>Conexão com o servidor falhou, tente novamente!</p></div>')
 							.delay(150)
 							.slideDown(300)
 							.delay(4000)
